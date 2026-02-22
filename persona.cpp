@@ -11,12 +11,14 @@ class Persona {
 	protected: Persona(){
 		
 	}
-	Persona(string cui, string nom, string ape, string dir, string fn, int tel, bool genero){
+	Persona(string cui, string nom, string ape, string dir, string fn, int tel, bool gn){
 		cui = cui;
 		nombres = nom;
 		apellidos = ape;
 		direccion = dir;
 		fecha_nacimiento = fn;
+		genero = gn;
+	
 	}
 	// metodos
 	void crear();
